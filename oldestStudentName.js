@@ -10,9 +10,9 @@ let maxAge = 0;
 let oldestStudent;
 
 for(let i = 0; i < students.length; i++) {
-    const studentAge1 = students[i][1];
-    if( maxAge <=  studentAge1){
-        maxAge=studentAge1;
+    const studentAge = students[i][1];
+    if( maxAge <=  studentAge){
+        maxAge=studentAge;
         oldestStudent = students[i];
     }
     
